@@ -4,7 +4,6 @@ An email transport based on mailer for [winston][0].
 
 ``` sh
   $ npm install winston
-  $ npm install winston-mailer
 ```
 
 ## Usage

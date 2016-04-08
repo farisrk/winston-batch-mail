@@ -1,6 +1,6 @@
 {
-  "name": "winston-mailer",
-  "version": "0.0.1",
+  "name": "winston-batch-mail",
+  "version": "1.0.0",
   "description": "Winston transport based on mailer. It buffers errors, and packs them in one email if necessary.",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/machadogj/node-winston-mailer.git"
+    "url": "git@github.com:farisrk/winston-batch-mail.git"
   },
   "keywords": [
     "winston",
     "email",
     "mail",
-    "mailer"
+    "mailer",
+    "batch"
   ],
-  "author": "Gustavo Machado",
-  "license": "BSD",
+  "author": "Faris Khan <farisrk@yahoo.com>",
+  "license": "MIT",
   "dependencies":{
     "mailer":"*"
   }
